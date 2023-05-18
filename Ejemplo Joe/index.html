@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/098c87e7e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="login">
+        <div class="login-container">
+
+            <div class="login-avatar">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="login-cell">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="user" placeholder="user">
+            </div>
+
+            <div class="login-cell">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="password" placeholder="activa el password">
+            </div>
+
+            <div class="login-cell">
+                <button onclick="Login()">Log in</button>
+            
+            </div>
+        </div>
+    </section>
+
+
+    </section>
+
+    <section class="bank-container">
+
+        <nav class="bank-menu">
+
+            <div class="bank-menu-logo">
+                <span><i class="fa-solid fa-piggy-bank fa-2x"> </i> BANCO PATITO</span>
+            </div>
+
+            <div class="bank-menu-settings">
+                <span><i class="fa-sharp fa-solid fa-gear"></i></span>
+                <span><i class="fa-solid fa-right-from-bracket"></i></span>
+                <span><i class="fa-solid fa-share-from-square"></i></span>
+            </div>
+
+        </nav>
+
+        <div class="welcome-container">
+            <h1>Hola Ana</h1>
+            
+            <div class="welcome-menu">
+                <span>Lunes 06 Mayo 2023</span>
+                <span>Configuraciones</span>
+                <span>Linea de contacto</span>
+            </div>
+        </div>
+
+        <div class="account">
+            <span>Saldo:</span>
+            <h2>$5,000</h2>
+        </div>
+
+        <div class="options-container">
+
+            <div class="option-column">
+
+                <button>Retirar</button>
+                <button>Depositar</button>
+                <button>Transferir</button>
+
+            </div>
+
+            <div class="result-column">
+                <span>Monto a retirar</span>
+                <input type="number" placeholder="$0.00" min="5" max="1000">
+                <button>Aceptar</button>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
